@@ -16,6 +16,10 @@
 		2D63A2CE265E44DC00912C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D63A2CC265E44DC00912C22 /* LaunchScreen.storyboard */; };
 		2D63A2D9265E44DC00912C22 /* Mood_logging_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2D8265E44DC00912C22 /* Mood_logging_appTests.swift */; };
 		2D63A2E4265E44DC00912C22 /* Mood_logging_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2E3265E44DC00912C22 /* Mood_logging_appUITests.swift */; };
+		2D63A2F2265E457E00912C22 /* WakingHoursSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2F1265E457E00912C22 /* WakingHoursSetupViewController.swift */; };
+		2D63A2F4265E45AE00912C22 /* MoodLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2F3265E45AE00912C22 /* MoodLogViewController.swift */; };
+		2D63A2F6265E461100912C22 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2F5265E461100912C22 /* Mood.swift */; };
+		2D63A2F8265E468200912C22 /* MoodsSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2F7265E468200912C22 /* MoodsSetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		2D63A2DF265E44DC00912C22 /* Mood logging appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mood logging appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D63A2E3265E44DC00912C22 /* Mood_logging_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_logging_appUITests.swift; sourceTree = "<group>"; };
 		2D63A2E5265E44DC00912C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D63A2F1265E457E00912C22 /* WakingHoursSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakingHoursSetupViewController.swift; sourceTree = "<group>"; };
+		2D63A2F3265E45AE00912C22 /* MoodLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLogViewController.swift; sourceTree = "<group>"; };
+		2D63A2F5265E461100912C22 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		2D63A2F7265E468200912C22 /* MoodsSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsSetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				2D63A2BE265E44DA00912C22 /* AppDelegate.swift */,
 				2D63A2C0265E44DA00912C22 /* SceneDelegate.swift */,
 				2D63A2C2265E44DA00912C22 /* ViewController.swift */,
+				2D63A2F1265E457E00912C22 /* WakingHoursSetupViewController.swift */,
+				2D63A2F3265E45AE00912C22 /* MoodLogViewController.swift */,
+				2D63A2F5265E461100912C22 /* Mood.swift */,
+				2D63A2F7265E468200912C22 /* MoodsSetViewController.swift */,
 				2D63A2C4265E44DA00912C22 /* Main.storyboard */,
 				2D63A2CA265E44DC00912C22 /* Assets.xcassets */,
 				2D63A2CC265E44DC00912C22 /* LaunchScreen.storyboard */,
@@ -261,7 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D63A2F4265E45AE00912C22 /* MoodLogViewController.swift in Sources */,
 				2D63A2C3265E44DA00912C22 /* ViewController.swift in Sources */,
+				2D63A2F2265E457E00912C22 /* WakingHoursSetupViewController.swift in Sources */,
+				2D63A2F6265E461100912C22 /* Mood.swift in Sources */,
+				2D63A2F8265E468200912C22 /* MoodsSetViewController.swift in Sources */,
 				2D63A2BF265E44DA00912C22 /* AppDelegate.swift in Sources */,
 				2D63A2C9265E44DA00912C22 /* Mood_logging_app.xcdatamodeld in Sources */,
 				2D63A2C1265E44DA00912C22 /* SceneDelegate.swift in Sources */,
