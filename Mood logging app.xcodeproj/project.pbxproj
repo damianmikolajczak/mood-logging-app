@@ -21,6 +21,7 @@
 		2D63A2F8265E468200912C22 /* MoodsSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2F7265E468200912C22 /* MoodsSetViewController.swift */; };
 		2D63A2FB265E50E700912C22 /* Mood+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2F9265E50E700912C22 /* Mood+CoreDataClass.swift */; };
 		2D63A2FC265E50E700912C22 /* Mood+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2FA265E50E700912C22 /* Mood+CoreDataProperties.swift */; };
+		2D63A2FF265FAC5B00912C22 /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2FE265FAC5B00912C22 /* AddPersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		2D63A2F7265E468200912C22 /* MoodsSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsSetViewController.swift; sourceTree = "<group>"; };
 		2D63A2F9265E50E700912C22 /* Mood+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mood+CoreDataClass.swift"; sourceTree = "<group>"; };
 		2D63A2FA265E50E700912C22 /* Mood+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mood+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2D63A2FE265FAC5B00912C22 /* AddPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				2D63A2C2265E44DA00912C22 /* ViewController.swift */,
 				2D63A2F1265E457E00912C22 /* WakingHoursSetupViewController.swift */,
 				2D63A2F3265E45AE00912C22 /* MoodLogViewController.swift */,
+				2D63A2FE265FAC5B00912C22 /* AddPersonViewController.swift */,
 				2D63A2F7265E468200912C22 /* MoodsSetViewController.swift */,
 				2D63A2C4265E44DA00912C22 /* Main.storyboard */,
 				2D63A2CA265E44DC00912C22 /* Assets.xcassets */,
@@ -293,6 +296,7 @@
 				2D63A2FB265E50E700912C22 /* Mood+CoreDataClass.swift in Sources */,
 				2D63A2FC265E50E700912C22 /* Mood+CoreDataProperties.swift in Sources */,
 				2D63A2C1265E44DA00912C22 /* SceneDelegate.swift in Sources */,
+				2D63A2FF265FAC5B00912C22 /* AddPersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

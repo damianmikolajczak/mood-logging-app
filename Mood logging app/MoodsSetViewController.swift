@@ -9,15 +9,32 @@ import UIKit
 
 class MoodsSetViewController: UIViewController {
 
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     var feelings = Array<String>()
     var activities = Array<String>()
     var persons = Array<String>()
+    var moods = Array<Mood>()
     
     @IBOutlet weak var feelingPicker: UIPickerView!
     @IBOutlet weak var moodFaceView: UIImageView!
     @IBOutlet weak var activityPicker: UIPickerView!
     @IBOutlet weak var activityImage: UIImageView!
     @IBOutlet weak var personTableView: UITableView!
+
+    @IBAction func addPerson() {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "AddPersonViewController") as! AddPersonViewController
+        vc.completitionHandler = { name in
+            let person = name
+            self.persons.append(person)
+            self.personTableView.reloadData()
+        }
+        vc.modalPresentationStyle = .popover
+        present(vc, animated: true, completion: nil)
+    }
+    
+    @IBAction func saveMood() {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,11 +48,9 @@ class MoodsSetViewController: UIViewController {
         getFeelingPickerData()
         getActivityPickerData()
         
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        personTableView.reloadData()
+        do {
+            self.moods = try context.fetch(Mood.fetchRequest())
+        } catch { }
     }
     
     func getFeelingPickerData() {
@@ -49,11 +64,6 @@ class MoodsSetViewController: UIViewController {
             activities.append("\(activity)")
         }
     }
-
-    @IBAction func addPerson() {
-        
-    }
-
 }
 
 extension MoodsSetViewController: UIPickerViewDataSource {
@@ -71,8 +81,6 @@ extension MoodsSetViewController: UIPickerViewDataSource {
             return 0
         }
     }
-    
-    
 }
 
 extension MoodsSetViewController: UIPickerViewDelegate {
@@ -109,9 +117,16 @@ extension MoodsSetViewController: UITableViewDataSource {
         cell.textLabel?.text = persons[indexPath.row]
         return cell
     }
-    
-    
 }
+
 extension MoodsSetViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            persons.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+        
+    }
 }
+
+
