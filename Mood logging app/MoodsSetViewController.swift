@@ -45,24 +45,25 @@ extension MoodsSetViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MoodCell", for: indexPath) as! MoodTableViewCell
-        
+        let index = moods.count - indexPath.row - 1 //The logs should be displayed from the newset to oldest one.
+        var peopleText = String()
         let formatter = DateFormatter()
+        
         formatter.dateStyle = .full
         
-        cell.logDateText.text = formatter.string(from: moods[indexPath.row].date!)
-        cell.logFeelingText.text = "\(moods[indexPath.row].feeling)"
-        cell.logActivityText.text = "\(moods[indexPath.row].activity)"
-        
-        var peopleText = String()
-        
-        if let people = moods[indexPath.row].people, people.count > 0 {
+        if let people = moods[index].people, people.count > 0 {
             for person in people {
-                peopleText.append(person + " ")
+                peopleText.append(person + ", ")
             }
         } else {
             peopleText = "No one was with you."
         }
         
+        cell.logDateText.text = formatter.string(from: moods[index].date!)
+        cell.logFeelingText.text = "\(moods[index].feeling)"
+        cell.logFeelingImage.image = UIImage(named: "\(moods[index].feeling)")
+        cell.logActivityText.text = "\(moods[index].activity)"
+        cell.logActivityImage.image = UIImage(named: "\(moods[index].activity)")
         cell.logPeopleText.text = peopleText
 
         return cell
