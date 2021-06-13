@@ -22,6 +22,7 @@ class MoodsSetViewController: UIViewController {
         
         fetachData()
         moodLogsTable.rowHeight = 150
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

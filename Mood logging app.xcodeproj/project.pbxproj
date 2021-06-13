@@ -23,6 +23,7 @@
 		2D63A2FC265E50E700912C22 /* Mood+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2FA265E50E700912C22 /* Mood+CoreDataProperties.swift */; };
 		2D63A2FF265FAC5B00912C22 /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2FE265FAC5B00912C22 /* AddPersonViewController.swift */; };
 		2D63A301265FD3CC00912C22 /* MoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A300265FD3CC00912C22 /* MoodTableViewCell.swift */; };
+		2DEE37B82676534E00145479 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE37B72676534E00145479 /* LocalNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		2D63A2FA265E50E700912C22 /* Mood+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mood+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2D63A2FE265FAC5B00912C22 /* AddPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
 		2D63A300265FD3CC00912C22 /* MoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTableViewCell.swift; sourceTree = "<group>"; };
+		2DEE37B72676534E00145479 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				2D63A2C0265E44DA00912C22 /* SceneDelegate.swift */,
 				2D63A2C2265E44DA00912C22 /* ViewController.swift */,
 				2D63A2F1265E457E00912C22 /* WakingHoursSetupViewController.swift */,
+				2DEE37B72676534E00145479 /* LocalNotificationManager.swift */,
 				2D63A2F3265E45AE00912C22 /* MoodsSetViewController.swift */,
 				2D63A2FE265FAC5B00912C22 /* AddPersonViewController.swift */,
 				2D63A2F7265E468200912C22 /* MoodLogViewController.swift */,
@@ -296,6 +299,7 @@
 				2D63A2F8265E468200912C22 /* MoodLogViewController.swift in Sources */,
 				2D63A2BF265E44DA00912C22 /* AppDelegate.swift in Sources */,
 				2D63A2C9265E44DA00912C22 /* Mood_logging_app.xcdatamodeld in Sources */,
+				2DEE37B82676534E00145479 /* LocalNotificationManager.swift in Sources */,
 				2D63A2FB265E50E700912C22 /* Mood+CoreDataClass.swift in Sources */,
 				2D63A2FC265E50E700912C22 /* Mood+CoreDataProperties.swift in Sources */,
 				2D63A2C1265E44DA00912C22 /* SceneDelegate.swift in Sources */,
