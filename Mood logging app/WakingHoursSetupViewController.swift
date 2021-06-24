@@ -27,7 +27,7 @@ class WakingHoursSetupViewController: UIViewController {
             lnm.RemoveAllPendingNotification()
             lnm.AddLocalNotification(startDate: startDate, endDate: endDate)
             
-            alert.title = "Waking where updated"
+            alert.title = "Waking hours updated"
             alert.message = "Your waking hours where successfull updated."
         }
         

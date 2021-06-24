@@ -328,7 +328,6 @@
         <!--Waking hours -->
         <scene sceneID="RGQ-zO-1bh">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ALE-hG-VjQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="irJ-9Q-xwN" customClass="WakingHoursSetupViewController" customModule="Mood_logging_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TqK-tk-upU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -382,6 +381,7 @@
                         <outlet property="startDatePicker" destination="fM7-NF-4qs" id="zP5-mp-A1a"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ALE-hG-VjQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1189.8550724637682" y="1849.5535714285713"/>
         </scene>

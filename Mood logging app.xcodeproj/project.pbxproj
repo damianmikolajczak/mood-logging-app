@@ -23,6 +23,11 @@
 		2D63A2FC265E50E700912C22 /* Mood+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2FA265E50E700912C22 /* Mood+CoreDataProperties.swift */; };
 		2D63A2FF265FAC5B00912C22 /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A2FE265FAC5B00912C22 /* AddPersonViewController.swift */; };
 		2D63A301265FD3CC00912C22 /* MoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63A300265FD3CC00912C22 /* MoodTableViewCell.swift */; };
+		2DC9C41A2684EA87002D2530 /* wakingHours.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DC9C4152684EA87002D2530 /* wakingHours.PNG */; };
+		2DC9C41B2684EA87002D2530 /* addPerson.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DC9C4162684EA87002D2530 /* addPerson.PNG */; };
+		2DC9C41C2684EA87002D2530 /* moodLogs.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DC9C4172684EA87002D2530 /* moodLogs.PNG */; };
+		2DC9C41D2684EA87002D2530 /* logMood.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DC9C4182684EA87002D2530 /* logMood.PNG */; };
+		2DC9C41E2684EA87002D2530 /* updatedHours.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2DC9C4192684EA87002D2530 /* updatedHours.PNG */; };
 		2DEE37B82676534E00145479 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE37B72676534E00145479 /* LocalNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +71,11 @@
 		2D63A2FA265E50E700912C22 /* Mood+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mood+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2D63A2FE265FAC5B00912C22 /* AddPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
 		2D63A300265FD3CC00912C22 /* MoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTableViewCell.swift; sourceTree = "<group>"; };
+		2DC9C4152684EA87002D2530 /* wakingHours.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wakingHours.PNG; sourceTree = "<group>"; };
+		2DC9C4162684EA87002D2530 /* addPerson.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addPerson.PNG; sourceTree = "<group>"; };
+		2DC9C4172684EA87002D2530 /* moodLogs.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moodLogs.PNG; sourceTree = "<group>"; };
+		2DC9C4182684EA87002D2530 /* logMood.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logMood.PNG; sourceTree = "<group>"; };
+		2DC9C4192684EA87002D2530 /* updatedHours.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = updatedHours.PNG; sourceTree = "<group>"; };
 		2DEE37B72676534E00145479 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +127,7 @@
 		2D63A2BD265E44DA00912C22 /* Mood logging app */ = {
 			isa = PBXGroup;
 			children = (
+				2DC9C4142684EA60002D2530 /* Images */,
 				2D63A2FD265E50F500912C22 /* Models */,
 				2D63A2BE265E44DA00912C22 /* AppDelegate.swift */,
 				2D63A2C0265E44DA00912C22 /* SceneDelegate.swift */,
@@ -161,6 +172,18 @@
 				2D63A2FA265E50E700912C22 /* Mood+CoreDataProperties.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2DC9C4142684EA60002D2530 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2DC9C4162684EA87002D2530 /* addPerson.PNG */,
+				2DC9C4182684EA87002D2530 /* logMood.PNG */,
+				2DC9C4152684EA87002D2530 /* wakingHours.PNG */,
+				2DC9C4192684EA87002D2530 /* updatedHours.PNG */,
+				2DC9C4172684EA87002D2530 /* moodLogs.PNG */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +290,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D63A2CE265E44DC00912C22 /* LaunchScreen.storyboard in Resources */,
+				2DC9C41A2684EA87002D2530 /* wakingHours.PNG in Resources */,
+				2DC9C41E2684EA87002D2530 /* updatedHours.PNG in Resources */,
 				2D63A2CB265E44DC00912C22 /* Assets.xcassets in Resources */,
+				2DC9C41D2684EA87002D2530 /* logMood.PNG in Resources */,
+				2DC9C41B2684EA87002D2530 /* addPerson.PNG in Resources */,
+				2DC9C41C2684EA87002D2530 /* moodLogs.PNG in Resources */,
 				2D63A2C6265E44DA00912C22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
